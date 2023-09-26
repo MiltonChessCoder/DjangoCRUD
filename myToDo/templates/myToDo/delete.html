@@ -1,6 +1,6 @@
 <p>Are you sure you want to delete "{{ item }}"?</p>
 
-<a href="{% url 'delete_task' pk=item.id %}">Cancel</a>
+<a href="{% url 'list'%}">Cancel</a>
 
 <form method="POST" action="">
     {% csrf_token %}
